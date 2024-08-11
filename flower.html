@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Flowers</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .flower-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 15px;
+            width: 300px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .flower-card img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .flower-card h3 {
+            margin: 15px 0;
+            font-size: 24px;
+            color: #ff6f61;
+        }
+        .flower-card p {
+            padding: 0 15px 20px 15px;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Beautiful Flowers</h1>
+        <p>Explore the stunning world of flowers</p>
+    </header>
+    <div class="container">
+        <div class="flower-card">
+            <img src="rose.jpg" alt="Rose">
+            <h3>Rose</h3>
+            <p>Roses are known for their beautiful blooms and delightful fragrance, symbolizing love and romance.</p>
+        </div>
+        <div class="flower-card">
+            <img src="tulip.jpg" alt="Tulip">
+            <h3>Tulip</h3>
+            <p>Tulips are spring-blooming perennials with large, colorful flowers. They represent perfect love.</p>
+        </div>
+        <div class="flower-card">
+            <img src="sunflower.jpg" alt="Sunflower">
+            <h3>Sunflower</h3>
+            <p>Sunflowers are bright and cheerful, known for their large, sunny faces and their association with happiness.</p>
+        </div>
+    </div>
+</body>
+</html>
